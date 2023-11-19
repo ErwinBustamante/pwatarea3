@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 50%; 
+    padding: 10px; 
+}
+
+img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+img:hover {
+    transform: scale(1.1); 
+}
